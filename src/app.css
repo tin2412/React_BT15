@@ -1,0 +1,54 @@
+.container {
+    max-width: 1400px;
+    margin: auto;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.container .text {
+    text-align: center;
+    padding: 20px;
+    animation: blink 2s linear infinite;
+}
+@keyframes blink {
+    0% {
+        color: darkgoldenrod;
+        
+    }
+
+    50% {
+        color: yellowgreen;
+        /* Change to white */
+    }
+
+    100% {
+        color: blue;
+        /* Back to initial color */
+    }
+}
+.window{
+    position: relative; /* Position the laptop container relative to its parent */
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: red;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.612);
+    margin-bottom: 20px;
+}
+
+h2, p{
+    text-align: center;
+    padding: 5px;
+}
+.button1{
+    margin: 5px;
+    width: 45%;
+    padding: 2px;
+    color: red;
+    font-weight: bold;
+    background-color: yellow;
+    box-shadow: 0 2px 5px rgba(52, 17, 0, 0.612);
+    border: 1px solid rgba(108, 108, 108, 0.612);
+}
